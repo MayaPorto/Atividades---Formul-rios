@@ -1,0 +1,28 @@
+img {
+    text-align: center;
+}
+
+body {
+    background-color: rgb(68, 136, 224);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+h2, h3 {
+    text-align: center;
+    color: aliceblue;
+    margin: auto;
+
+}
+
+.box1 {
+    background-color: white;
+    padding: 22px;
+    border: 22px;
+    margin: auto;
+}
+
+table {
+background-color: aliceblue;
+margin: auto;
+}

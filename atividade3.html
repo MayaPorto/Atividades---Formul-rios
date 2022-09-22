@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <div>
         <img src="https://soulcodeacademy.org/assets/images/logo/light-logo.png" alt="">
         <h2>Bem-Vindo! Entre com seu email e senha. </h2>
-        <form>
+        <form class="box1">
             <div>
                 <label for="campoEmail">Email</label><br/>
                 <input  id="campoEmail" name="campoEmail" type="email" placeholder="usuario@exemplo.com" required />
@@ -18,12 +19,11 @@
             <div>
                 <label for="campoSenha">Senha</label><br/>
                 <input  id="campoSenha" name="campoSenha" type="senha" placeholder="Sua senha" required />
-            </div>
-            <hr/>
+            </div><br>
             <div>
-                <button>Login</button>
-                <input type="checkbox" name="continuarConectado" id="checkTermos">Continuar conectado?
+                <input type="checkbox" name="continuarConectado" id="checkTermos">Continuar conectado
             </div>
+                <button>Entrar</button>
         </form><br/>
         <section>
             <table border="1" cellpadding="3" style="border-collapse: collapse">
@@ -36,7 +36,7 @@
                         <th>DESENVOLVEDOR SERVICENOW</th>
                         <th>DESENVOLVEDOR SALESFORCE</th>
                         <th>ANALISTA DE MIDIA E PERFORMANCE</th>
-                    </tr>
+                    <tr/>
                 </thead>
                 <tbody>
                     <div>
