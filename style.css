@@ -5,35 +5,51 @@ img {
     
 }
 
+.my-button {
+    background-color: rgb(205, 220, 233);
+    border: none;
+    border-radius: 4px;
+    padding: 4px 20px;
+    font-size:15px;
+    cursor: pointer;
+
+}
+
+.my-button:hover {
+    background-color: rgba(19, 19, 23, 0.418);
+}
+
+.my-group {
+    margin-bottom: 15px;
+}
+
 body {
-    background-color: rgb(68, 136, 224);
+    background-color: rgb(26, 105, 210);
     background-repeat: no-repeat;
     text-align: center;
-    border: 1px;
+    border: 1px ;
     border-radius: 50px;
 }
 
 h2, h3 {
     text-align: center;
     color: aliceblue;
-    margin: auto;
+    margin: 25px;
     border: 1px;
     border-radius: 5px;
 }
 
 .box1 {
+    border-radius: 6%;
+    padding: 20px 16px;
+    width: 300px;
+    margin: auto ;
     background-color: white;
-    padding: 22px;
-    border: 22px;
-    margin: auto;
+    text-align: center;
 }
 
 table {
-background-color: aliceblue;
+background-color: rgb(250, 251, 252);
 margin: auto;
 border: 1px;
-}
-
-th {
-    background-color: ;
 }
